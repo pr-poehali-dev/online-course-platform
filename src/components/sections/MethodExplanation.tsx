@@ -27,7 +27,7 @@ const MethodExplanation = () => {
           </div>
           
           <div className="space-y-6">
-            <Card className="border-l-4 border-l-primary hover-scale">
+            <Card className="border-l-4 border-l-primary hover:shadow-lg transition-all duration-300">
               <CardContent className="p-6">
                 <h3 className="font-semibold text-lg mb-2">Осевое сжатие костей</h3>
                 <p className="text-muted-foreground">
@@ -36,7 +36,7 @@ const MethodExplanation = () => {
               </CardContent>
             </Card>
             
-            <Card className="border-l-4 border-l-primary hover-scale">
+            <Card className="border-l-4 border-l-primary hover:shadow-lg transition-all duration-300">
               <CardContent className="p-6">
                 <h3 className="font-semibold text-lg mb-2">Уникальная нагрузка</h3>
                 <p className="text-muted-foreground">
@@ -45,7 +45,7 @@ const MethodExplanation = () => {
               </CardContent>
             </Card>
             
-            <Card className="border-l-4 border-l-primary hover-scale">
+            <Card className="border-l-4 border-l-primary hover:shadow-lg transition-all duration-300">
               <CardContent className="p-6">
                 <h3 className="font-semibold text-lg mb-2">Доказанная эффективность</h3>
                 <p className="text-muted-foreground">
@@ -54,7 +54,7 @@ const MethodExplanation = () => {
               </CardContent>
             </Card>
             
-            <Card className="border-l-4 border-l-primary hover-scale">
+            <Card className="border-l-4 border-l-primary hover:shadow-lg transition-all duration-300">
               <CardContent className="p-6">
                 <h3 className="font-semibold text-lg mb-2">Комплексный подход</h3>
                 <p className="text-muted-foreground">
@@ -66,30 +66,35 @@ const MethodExplanation = () => {
         </div>
         
         <div className="mt-12 bg-primary/10 rounded-lg p-8 border border-primary/30">
-          <div className="max-w-4xl mx-auto text-center space-y-6">
-            <h3 className="text-2xl font-bold">АВТОР МЕТОДИКИ — ВЯЧЕСЛАВ АН</h3>
+          <div className="max-w-4xl mx-auto text-center md:text-left space-y-6">
+            <h3 className="text-2xl font-bold text-center">АВТОР МЕТОДИКИ — ВЯЧЕСЛАВ АН</h3>
             <div className="flex flex-col md:flex-row items-center gap-6">
-              <div className="w-32 h-32 rounded-full overflow-hidden border-4 border-primary shrink-0">
+              <div className="w-40 h-40 rounded-lg overflow-hidden border-4 border-primary shrink-0 shadow-lg transform transition-transform hover:scale-105 duration-300">
                 <img 
-                  src="https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" 
+                  src="https://cdn.poehali.dev/files/99d2fba6-1e14-4892-9fc9-c4361fbc7a39.jpeg" 
                   alt="Вячеслав Ан"
                   className="w-full h-full object-cover"
                 />
               </div>
-              <div className="text-left">
-                <p className="italic">
+              <div>
+                <p className="italic text-lg">
                   "Профессиональный спортсмен, многократный чемпион страны, мастер спорта, 
                   эксперт в спортивной реабилитации. Более 20 лет посвятил изучению биомеханики 
                   человеческого тела и созданию эффективной методики восстановления костной ткани."
                 </p>
+                <p className="mt-3 font-medium text-primary">
+                  Под руководством Вячеслава сотни людей вернули здоровье и активный образ жизни!
+                </p>
               </div>
             </div>
-            <Button size="lg" className="bg-primary hover:bg-primary/90 hover-scale">
-              Запишитесь на первое занятие и начните новую жизнь
-            </Button>
-            <p className="text-muted-foreground">
-              Без боли, с крепкими костями и молодым телом!
-            </p>
+            <div className="text-center mt-8">
+              <Button size="lg" className="bg-primary hover:bg-primary/90 transform transition-transform hover:scale-105 duration-300">
+                Запишитесь на первое занятие и начните новую жизнь
+              </Button>
+              <p className="text-muted-foreground mt-3">
+                Без боли, с крепкими костями и молодым телом!
+              </p>
+            </div>
           </div>
         </div>
       </div>
