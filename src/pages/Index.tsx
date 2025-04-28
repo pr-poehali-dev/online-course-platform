@@ -6,6 +6,11 @@ import Features from "@/components/sections/Features";
 import Testimonials from "@/components/sections/Testimonials";
 import Pricing from "@/components/sections/Pricing";
 import FAQ from "@/components/sections/FAQ";
+import WhyItWorks from "@/components/sections/WhyItWorks";
+import Science from "@/components/sections/Science";
+import TargetAudience from "@/components/sections/TargetAudience";
+import Benefits from "@/components/sections/Benefits";
+import MethodExplanation from "@/components/sections/MethodExplanation";
 
 const Index = () => {
   return (
@@ -14,8 +19,11 @@ const Index = () => {
       
       <main className="flex-grow">
         <Hero />
-        <Features />
-        <Testimonials />
+        <WhyItWorks />
+        <Science />
+        <Benefits />
+        <TargetAudience />
+        <MethodExplanation />
         <Pricing />
         <FAQ />
       </main>
