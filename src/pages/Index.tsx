@@ -12,6 +12,7 @@ import TargetAudience from "@/components/sections/TargetAudience";
 import Benefits from "@/components/sections/Benefits";
 import MethodExplanation from "@/components/sections/MethodExplanation";
 import TrainerDevice from "@/components/sections/TrainerDevice";
+import MethodComparison from "@/components/sections/MethodComparison";
 
 const Index = () => {
   return (
@@ -22,6 +23,7 @@ const Index = () => {
         <Hero />
         <WhyItWorks />
         <TrainerDevice />
+        <MethodComparison />
         <Science />
         <Benefits />
         <TargetAudience />
