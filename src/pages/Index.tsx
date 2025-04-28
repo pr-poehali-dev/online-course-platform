@@ -11,6 +11,7 @@ import Science from "@/components/sections/Science";
 import TargetAudience from "@/components/sections/TargetAudience";
 import Benefits from "@/components/sections/Benefits";
 import MethodExplanation from "@/components/sections/MethodExplanation";
+import TrainerDevice from "@/components/sections/TrainerDevice";
 
 const Index = () => {
   return (
@@ -20,6 +21,7 @@ const Index = () => {
       <main className="flex-grow">
         <Hero />
         <WhyItWorks />
+        <TrainerDevice />
         <Science />
         <Benefits />
         <TargetAudience />
