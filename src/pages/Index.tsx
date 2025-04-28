@@ -24,6 +24,7 @@ const Index = () => {
         <Benefits />
         <TargetAudience />
         <MethodExplanation />
+        <Testimonials />
         <Pricing />
         <FAQ />
       </main>
