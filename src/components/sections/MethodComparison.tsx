@@ -2,7 +2,7 @@
 import { Section } from "@/components/ui/section";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Check } from "lucide-react";
+import { Check } from "lucide-react";
 
 const MethodComparison = () => {
   return (
@@ -85,36 +85,10 @@ const MethodComparison = () => {
                   className="bg-primary hover:bg-primary/90 group"
                 >
                   Записаться на консультацию
-                  <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" size={18} />
+                  <Check className="ml-2 group-hover:scale-110 transition-transform" size={18} />
                 </Button>
               </div>
             </div>
-          </div>
-        </div>
-
-        <div className="mt-16 flex flex-col md:flex-row items-center bg-primary/10 rounded-xl p-6 md:p-8 border border-primary/30">
-          <div className="md:w-2/3 md:pr-6">
-            <h3 className="text-2xl font-bold mb-3">Традиционные методы vs. «Ось Жизни»</h3>
-            <p className="text-lg mb-4">
-              В то время как обычные методики предлагают лишь временное облегчение симптомов, 
-              наша технология воздействует на первопричину проблем с опорно-двигательной системой,
-              запуская естественные процессы регенерации организма.
-            </p>
-            <div className="mt-4 md:mt-0">
-              <Button 
-                variant="outline" 
-                className="border-primary text-primary hover:bg-primary hover:text-white"
-              >
-                Узнать больше о методике
-              </Button>
-            </div>
-          </div>
-          <div className="md:w-1/3 mt-6 md:mt-0 flex justify-center">
-            <img 
-              src="https://cdn.poehali.dev/files/62316340-1336-44ae-8e6b-c495d44544ea.png" 
-              alt="Сравнение методов" 
-              className="max-w-full h-auto rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300"
-            />
           </div>
         </div>
       </div>

@@ -2,6 +2,13 @@
 import { Section } from "@/components/ui/section";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
+import { 
+  ArrowDownToLine, 
+  ArrowUpToLine, 
+  BarChart3, 
+  CheckCircle2, 
+  Activity 
+} from "lucide-react";
 
 const MethodExplanation = () => {
   return (
@@ -18,12 +25,54 @@ const MethodExplanation = () => {
         </div>
         
         <div className="grid md:grid-cols-2 gap-8 lg:gap-16 items-center">
-          <div>
-            <img 
-              src="https://images.unsplash.com/photo-1616279969862-55a27960bca9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1760&q=80" 
-              alt="Схема работы тренажера Ось Жизни"
-              className="rounded-lg shadow-xl w-full"
-            />
+          <div className="bg-white p-6 rounded-xl shadow-lg border border-gray-100">
+            <div className="text-center mb-4">
+              <h3 className="font-bold text-xl text-primary">Механизм действия тренажёра "Ось Жизни"</h3>
+            </div>
+            
+            <div className="relative">
+              <div className="flex justify-center mb-8">
+                <img 
+                  src="https://images.unsplash.com/photo-1559757175-7cb056fba619?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80" 
+                  alt="Схема работы позвоночника"
+                  className="rounded-lg shadow-md w-full max-w-md"
+                />
+              </div>
+              
+              <div className="grid grid-cols-2 gap-4">
+                <div className="flex items-center space-x-2 bg-primary/10 p-3 rounded-lg">
+                  <ArrowDownToLine className="text-primary flex-shrink-0" size={24} />
+                  <div>
+                    <p className="font-medium">Осевое сжатие</p>
+                    <p className="text-sm text-muted-foreground">Стимуляция остеобластов</p>
+                  </div>
+                </div>
+                
+                <div className="flex items-center space-x-2 bg-primary/10 p-3 rounded-lg">
+                  <ArrowUpToLine className="text-primary flex-shrink-0" size={24} />
+                  <div>
+                    <p className="font-medium">Осевое растяжение</p>
+                    <p className="text-sm text-muted-foreground">Декомпрессия дисков</p>
+                  </div>
+                </div>
+                
+                <div className="flex items-center space-x-2 bg-primary/10 p-3 rounded-lg">
+                  <BarChart3 className="text-primary flex-shrink-0" size={24} />
+                  <div>
+                    <p className="font-medium">Нагрузка 4-12×</p>
+                    <p className="text-sm text-muted-foreground">Превышает вес тела</p>
+                  </div>
+                </div>
+                
+                <div className="flex items-center space-x-2 bg-primary/10 p-3 rounded-lg">
+                  <Activity className="text-primary flex-shrink-0" size={24} />
+                  <div>
+                    <p className="font-medium">Улучшение на 14%</p>
+                    <p className="text-sm text-muted-foreground">За 6 месяцев</p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
           
           <div className="space-y-6">
