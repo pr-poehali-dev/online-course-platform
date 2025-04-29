@@ -3,7 +3,6 @@ import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 import Hero from "@/components/sections/Hero";
 import Benefits from "@/components/sections/Benefits";
-import Features from "@/components/sections/Features";
 import TrainerDevice from "@/components/sections/TrainerDevice";
 import MethodComparison from "@/components/sections/MethodComparison";
 import ComparativeMethods from "@/components/sections/ComparativeMethods";
@@ -22,7 +21,6 @@ const Index = () => {
       <main className="flex-1">
         <Hero />
         <Benefits />
-        <Features />
         <TrainerDevice />
         <ComparativeMethods />
         <MethodComparison />
