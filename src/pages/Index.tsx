@@ -9,7 +9,6 @@ import ComparativeMethods from "@/components/sections/ComparativeMethods";
 import MethodExplanation from "@/components/sections/MethodExplanation";
 import Science from "@/components/sections/Science";
 import TargetAudience from "@/components/sections/TargetAudience";
-import WhyItWorks from "@/components/sections/WhyItWorks";
 import Testimonials from "@/components/sections/Testimonials";
 import FAQ from "@/components/sections/FAQ";
 import Pricing from "@/components/sections/Pricing";
@@ -27,7 +26,6 @@ const Index = () => {
         <MethodExplanation />
         <Science />
         <TargetAudience />
-        <WhyItWorks />
         <Testimonials />
         <FAQ />
         <Pricing />
