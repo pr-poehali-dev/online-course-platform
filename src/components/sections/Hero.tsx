@@ -55,11 +55,18 @@ const Hero = () => {
           
           <div className="relative">
             <div className="relative z-10 bg-white rounded-xl overflow-hidden shadow-2xl transform hover:scale-105 transition-transform duration-300">
-              <img 
-                src="https://images.unsplash.com/photo-1611077854917-b5fef0d61ace?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80" 
-                alt="Тренажер Ось Жизни"
-                className="w-full aspect-video object-cover"
-              />
+              <div className="grid grid-cols-1 gap-4">
+                <img 
+                  src="https://cdn.poehali.dev/files/ff2f310d-d800-4085-b436-c747d1bb7c57.jpeg" 
+                  alt="Автор методики с учеником"
+                  className="w-full aspect-video object-cover"
+                />
+                <img 
+                  src="https://images.unsplash.com/photo-1611077854917-b5fef0d61ace?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80" 
+                  alt="Тренажер Ось Жизни"
+                  className="w-full aspect-video object-cover"
+                />
+              </div>
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end">
                 <div className="p-6 text-white">
                   <p className="font-semibold text-lg mb-2">Забудьте о хрупкости костей и болях в суставах!</p>
